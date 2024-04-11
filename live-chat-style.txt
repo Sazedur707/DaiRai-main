@@ -1,0 +1,63 @@
+ @media screen and (max-width: 1000px) {
+    .context {
+      border: 1px solid red;
+    }
+    #chat-container {
+      width: 100%;
+      margin: 0 auto;
+      overflow-y: auto;
+      margin-top: 40px;
+    }
+  }
+
+  /* Rest of the CSS styles */
+
+  #chat-container {
+    width: 500px;
+    margin: 0 auto;
+    overflow-y: auto;
+    margin-top: 40px;
+  }
+
+  #chat-messages {
+    height: 330px;
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+    padding: 10px;
+    padding: 24px 14px;
+  }
+
+  #chat-form {
+    margin-top: 10px;
+  }
+
+  #chat-form input[type="text"] {
+    width: 450px;
+    padding: 9px 9px;
+    margin: 4px 0px;
+    color: blue;
+  }
+
+  #chat-form button {
+    width: 18%;
+    padding: 5px;
+    padding-right: 1px;
+    margin: 4px 0px;
+    background-color: white;
+    color: blue;
+    border: 1px solid blue;
+    cursor: pointer;
+  }
+
+  #chat-form button:hover {
+    background-color: blue;
+    color: #fff;
+    transition: 0.5s;
+  }
+
+  .chat-wrapper {
+    margin-bottom: 18px;
+    padding: 7px 15px;
+    background-color: #f5f5f5;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
